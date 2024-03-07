@@ -31,14 +31,14 @@ A_hat_2      Relative quality of life advantage of region 2      0
 eta_hat_2    Relative housing productivity advantage of region 2 0
 phibar_hat_2 Relative labor productivity advantage of region0 2  0
 min_w_hat    Minimum x-value: Wage                               0
-step_w_hat   x-steps: wage                                       0
-max_w_hat    MAaimum x-value: Wage                               0
+step_w_hat   x-steps: wage                                       1
+max_w_hat    MAaimum x-value: Wage                               2
 min_L_hat    Minimum x-value: Employment                         0
-step_L_hat   x-steps: Employment                                 0
-max_L_hat    MAaimum x-value: Employment                         0
+step_L_hat   x-steps: Employment                                 1
+max_L_hat    MAaimum x-value: Employment                         2
 min_p_hat    Minimum x-value: Rent                               0
-step_p_hat   x-steps: Rent                                       0
-max_p_hat    MAaimum x-value: Rent                               0
+step_p_hat   x-steps: Rent                                       1
+max_p_hat    MAaimum x-value: Rent                               2
 
 It will plot curves for region 1 indexed by _1 as solid red lines. It will plot curves for region 2 indexed by _2 as solid dashed blue lines.
 The program will find the equilibrium using the above parameter values if you enter the commend without any argument.
