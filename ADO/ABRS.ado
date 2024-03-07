@@ -24,7 +24,7 @@ qui clear
 	scalar sigma = 4
 	scalar zeta = 0.04				
 
-	scalar A_hat_1 = 0.1
+	scalar A_hat_1 = 0.2
 	scalar eta_hat_1 = 0
 	scalar k_hat_1 = eta_hat_1^(-1)
 	scalar phibar_hat_1 = 0
@@ -44,16 +44,6 @@ qui clear
 	scalar min_p_hat = 0
 	scalar step_p_hat = 1
 	scalar max_p_hat = 2
-	
-	local 12 = min_w_hat
-	local 13 = step_w_hat
-	local 14 = max_w_hat
-	local 15 = min_L_hat
-	local 16 = step_L_hat
-	local 17 = max_L_hat
-	local 18 = min_p_hat
-	local 19 = step_p_hat
-	local 20 = max_p_hat
 
 // Override with user entry
 	capture scalar `1'
@@ -77,6 +67,17 @@ qui clear
 	capture scalar `19'
 	capture scalar `20'
 
+// Use the updaed values to generate scalars for panel sizes	
+	local 12 = min_w_hat
+	local 13 = step_w_hat
+	local 14 = max_w_hat
+	local 15 = min_L_hat
+	local 16 = step_L_hat
+	local 17 = max_L_hat
+	local 18 = min_p_hat
+	local 19 = step_p_hat
+	local 20 = max_p_hat	
+	
 // Un-log user entry
 	scalar A_hat_1 = exp(A_hat_1)
 	scalar eta_hat_1 =exp(eta_hat_1)
@@ -133,23 +134,23 @@ display "<<< general equilibrium effects >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 	local lw_hat_star_2 = round(ln(w_hat_star_2), 0.01)
 	local lp_hat_star_2 = round(ln( p_hat_star_2), 0.01)
 	local lrw_hat_star_2 =  round(ln(w_hat_star_2)-(1-alpha)*ln(p_hat_star_2), 0.01)
-	display "--------"
+	display "----------------------"
 	display "All results are responses to changes in fundamentals in log units"
-	display "--------"
-	display "Region 1"
-	display "--------"
+	display "----------------------"
+	display "Region 1 (red solid)"
+	display "----------------------"
 	display "Total employment: `lL_hat_star_1'"
 	display "Wage:             `lw_hat_star_1'"
 	display "Rent:             `lp_hat_star_1'"
 	display "Real wage:        `lrw_hat_star_1'"
-	display "--------"
-	display "Region 1"
-	display "--------"
+	display "----------------------"
+	display "Region 2 (blue dashed)"
+	display "----------------------"
 	display "Total employment: `lL_hat_star_2'"
 	display "Wage:             `lw_hat_star_2'"
 	display "Rent:             `lp_hat_star_2'"
 	display "Real wage:        `lrw_hat_star_2'"
-	display "--------"
+	display "----------------------"
 display "<<< preparing graph >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"	
 * Plot G1
 	* region graph condition

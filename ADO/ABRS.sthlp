@@ -20,11 +20,11 @@ The following parameters can be adjusted by adding "parameter=value" as an argum
 alpha        Expenditure share on non-housing goods              0.66
 gamma        Preference heterogeneity                            3
              (inversely related to dispersion)               
-delta	 	 Share of land in housing                            0.3 
+delta        Share of land in housing                            0.3 
              (inversely related to labour supply elasticity)    
 sigma        Elasticity of substitution between varieties        4
 zeta         Agglomeration elasticity                            0.04
-A_hat_1      Relative quality of life advantage of region 1      0.1
+A_hat_1      Relative quality of life advantage of region 1      0.2
 eta_hat_1    Relative housing productivity advantage of region 1 0
 phibar_hat_1 Relative labor productivity advantage of region0 1  0
 A_hat_2      Relative quality of life advantage of region 2      0
@@ -40,7 +40,8 @@ min_p_hat    Minimum x-value: Rent                               0
 step_p_hat   x-steps: Rent                                       0
 max_p_hat    MAaimum x-value: Rent                               0
 
-The program will find the equilibrium using the above parameter values if you enter the commend without any argument. 
+It will plot curves for region 1 indexed by _1 as solid red lines. It will plot curves for region 2 indexed by _2 as solid dashed blue lines.
+The program will find the equilibrium using the above parameter values if you enter the commend without any argument.
 You can change any of the parameter values by adding "parameter=value" as an argument. You can add as many arguments as there are parameters.
 
 
