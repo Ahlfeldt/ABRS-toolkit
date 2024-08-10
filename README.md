@@ -1,4 +1,4 @@
-**Toolkit for counterfactuals based on a spatial equilibrium framework with heterogenous preferences by Ahlfeldt-Bald-Roth-Seidel (WIP)**
+**Toolkit for Measuring Quality of Life under Spatial Frictions**
 
 (c) Gabriel M. Ahlfeldt, Fabian Bald, Duncan Roth, Tobias Seidel
 
