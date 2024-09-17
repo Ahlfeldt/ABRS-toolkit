@@ -1,4 +1,4 @@
-**Toolkit for Measuring Quality of Life under Spatial Frictions**
+**Toolkit for Analytical Counterfactuals in Quantitative Spatial Model with Spatial Frictions**
 
 (c) Gabriel M. Ahlfeldt, Fabian Bald, Duncan Roth, Tobias Seidel
 
