@@ -1,4 +1,4 @@
-**Toolkit for Analytical Counterfactuals in Quantitative Spatial Model with Spatial Frictions**
+**Toolkit for Analytical Counterfactuals in Quantitative Spatial Models with Spatial Frictions**
 
 (c) Gabriel M. Ahlfeldt, Fabian Bald, Duncan Roth, Tobias Seidel
 
