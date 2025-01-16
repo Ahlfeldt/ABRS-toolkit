@@ -31,7 +31,7 @@ Name  | Description |
 
 | Name | Description |
 |:---------------------------------------------|:-------------------------------------------------------------------------|
-| ABRS-ToyModel.pdf | PDF documentation containing the toy model on which this toolkit is based |
+| [ABRS-ToyModel.pdf](https://github.com/Ahlfeldt/ABRS-toolkit/blob/main/ABRS-ToyModel.pdf) | PDF documentation containing the toy model on which this toolkit is based |
 
 **Further resources**: 
 
