@@ -10,7 +10,7 @@ This toolkit allows for counterfactual evaluations of the effect of changes in l
 
 A HTML (JavaScript) implementation of the toolkit (does not include the four quadrants) is available [here](https://sites.google.com/view/ahlfeldt/toolkits-and-webtools/ahlfeldt-bald-roth-seidel-counterfactuals).
 
-When using this toolkit in your work, please cite Gabriel M. Ahlfeldt, Fabian Bald, Duncan Roth, Tobias Seidel (forthcoming): Measuring quality of life under spatial frictions.
+When using this toolkit in your work, please cite Gabriel M. Ahlfeldt, Fabian Bald, Duncan Roth, Tobias Seidel (2024): Measuring quality of life under spatial frictions. CEPR DP19769. 
 
 This toolkit has been developed as core component of the course [Quantitative Spatial Economics](https://sites.google.com/view/bqse/bqse-teaching) taught by Gabriel Ahlfeldt to research students at the Berlin School of Economics and Humboldt University. The course is taught in the German summer term and is open to visiting PhD students.
 
@@ -35,4 +35,4 @@ Name  | Description |
 
 **Further resources**: 
 
-Gabriel M. Ahlfeldt, Fabian Bald, Duncan Roth, Tobias Seidel (forthcoming): Measuring quality of life under spatial frictions.
+Gabriel M. Ahlfeldt, Fabian Bald, Duncan Roth, Tobias Seidel (2024): Measuring quality of life under spatial frictions. [CEPR DP19769](https://cepr.org/publications/dp19769) (download the [latest version](https://github.com/Ahlfeldt/ABRSQOL-toolkit/raw/main/ABRSQOL-paper.pdf).
